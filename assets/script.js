@@ -16,14 +16,13 @@ function step() {
     canvas.getContext('2d').fillRect(0, 0, canvas.width, canvas.height);
     
     //verde
-    canvas.getContext('2d').fillStyle = '#0F0';
+    canvas.getContext('2d').fillStyle = '#ff0000';
     //para cada clolumna
     columns.map(function (value, index) {
         //fromCharCode convierte puntos de código unicode ( http://en.wikipedia.org/wiki/Code_point ) a un string
         //Los code points están en el rango 30000-30032 (0x7530-0x7550) (田-畐)
         //que está incluido en el bloque de ideogramas unificado CJK ( http://en.wikipedia.org/wiki/CJK_Unified_Ideographs )
-        var character = String.fromCharCode(3e4 +
-                                            Math.random() * 33);
+        var character = String.fromCharCode(3e4 + Math.random() * 33);
         //dibujar el carácter
         canvas.getContext('2d').fillText(character, //texto
                                          index * 10, //x
