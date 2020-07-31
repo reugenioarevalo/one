@@ -1,70 +1,71 @@
 ###################
-What is CodeIgniter
+¿Qué es CodeIgniter?
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+CodeIgniter es un marco de Framework  de aplicaciones, un kit de herramientas, para personas
+quienes construyen sitios web usando PHP. Su objetivo es permitirte desarrollar proyectos
+mucho más rápido de lo que podría si estuviera escribiendo código desde cero, al proporcionar
+un rico conjunto de bibliotecas para tareas comúnmente necesarias, así como un simple
+interfaz y estructura lógica para acceder a estas bibliotecas. CodeIgniter permite que
+te enfocas creativamente en tu proyecto minimizando la cantidad de código necesario
+para una tarea dada
 
 *******************
-Release Information
+Información de lanzamiento
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Este repositorio contiene código en desarrollo para futuras versiones. Para descargar el
+última versión estable, visite las descargas de `CodeIgniter
+<https://codeigniter.com/download> `_ página.
 
 **************************
-Changelog and New Features
+Registro de cambios y nuevas características
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Puede encontrar una lista de todos los cambios para cada versión en el `usuario
+registro de cambios de la guía <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst> `_.
 
 *******************
-Server Requirements
+Requerimientos del servidor
 *******************
 
-PHP version 5.6 or newer is recommended.
+Se recomienda la versión 5.6 o posterior de PHP.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+También debería funcionar en 5.3.7, pero le recomendamos encarecidamente que NO ejecute
+tales versiones antiguas de PHP, debido a la potencial seguridad y rendimiento
+problemas, así como características faltantes.
 
 ************
-Installation
+Instalación
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Para la instalacion se requiere una base crear una base de datos llamada ci_base y migrar desde el archivo sql
+q se encuentra en la carpeta sql, del repositorio.
+con eso basta.
 
 *******
-License
+Licencia
 *******
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+Por favor vea la `licencia
+acuerdo <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst> `_.
 
 *********
-Resources
+Recursos
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+- `Guía del usuario <https://codeigniter.com/docs>` _
+- `Traducciones de archivos de idioma <https://github.com/bcit-ci/codeigniter3-translations>` _
+- `Foros de la comunidad <http://forum.codeigniter.com/>` _
+- `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>` _
+- `Community Slack Channel <https://codeigniterchat.slack.com>` _
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+Informe los problemas de seguridad a nuestro `Panel de seguridad <mailto: security@codeigniter.com>` _
+o a través de nuestra página `en HackerOne <https://hackerone.com/codeigniter>` _, gracias.
 
 ***************
-Acknowledgement
+Reconocimiento
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+El equipo de CodeIgniter quiere agradecer a EllisLab, todos los
+contribuyentes al proyecto CodeIgniter y usted, el usuario CodeIgniter.
