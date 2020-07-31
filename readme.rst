@@ -39,7 +39,7 @@ problemas, así como características faltantes.
 Instalación
 ************
 
-Para la instalacion se requiere una base crear una base de datos llamada ci_base y migrar desde el archivo sql
+Para la instalacion se requiere crear una base de datos en mysql llamada ci_base y migrar desde el archivo sql
 q se encuentra en la carpeta sql, del repositorio.
 con eso basta.
 
@@ -65,7 +65,5 @@ o a través de nuestra página `en HackerOne <https://hackerone.com/codeigniter>
 
 ***************
 Reconocimiento
-***************
-
-El equipo de CodeIgniter quiere agradecer a EllisLab, todos los
-contribuyentes al proyecto CodeIgniter y usted, el usuario CodeIgniter.
+**************
+Este repositorio fue adptado por Eugenio Arevalo
