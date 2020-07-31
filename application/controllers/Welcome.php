@@ -15,4 +15,9 @@ class Welcome extends CI_Controller {
 	function album(){
 		$this->load->view('ejemplos/album/index');
 	}
+
+	function carusel(){
+		$this->load->view('ejemplos/carusel/index');
+	}
+	
 }
