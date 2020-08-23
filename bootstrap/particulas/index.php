@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
     <title>Tecnologias informaticas</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
@@ -38,10 +43,10 @@ body {
                 <li class="nav-item">
                     <a class="nav-link" href="#">Nosotros</a>
                 </li>
-                                                  <li class="nav-item"><a class="nav-link" href="#">Portafolios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portafolios</a></li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contacto</a>
-                    </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Whatsapp</a>
                 </li>
@@ -58,18 +63,24 @@ body {
         </div>
     </nav>
 
-    <div class="contenedor" >
+    <div class="contenedor">
         <div class="contenedor jumbotron">
             <div class="container">
-                <div class="">
-                    <div>
+                <div class="cover-heading">
+                    <div class="hidden-sm-down">
                         <h1 class="display-4 mt-2 ">
-                            <span>TECNOLOGIAS</span>
+                            TECNOLOGIAS
                         </h1>
                         <h2 class="display-2 ">
-                            <span>INFORMATICAS</span>
+                            INFORMATICAS
                         </h2>
                     </div>
+                    <!-- <div class=" hidden-sm-up">
+                        <h1 class="display-4 mt-2 ">
+                            T.I.
+                        </h1>
+                        <p>TECNOLOGIAS INFORMATICAS</p>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -108,7 +119,7 @@ body {
 
         </div> <!-- /container -->
 
-</div>
+    </div>
 
     <footer class="container">
         </p>

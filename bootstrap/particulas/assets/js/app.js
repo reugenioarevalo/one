@@ -12,7 +12,8 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* Otherwise just put the config content (json): */
 $(document).ready(function(){
     var ancho = $(window).width();
-    if(ancho > 700)  {
+    console.log(ancho);
+    if(ancho > 625)  {
 
  
 particlesJS('particles-js',
