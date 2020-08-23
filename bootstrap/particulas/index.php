@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>matrix</title>
-    <!-- <link rel="stylesheet" media="screen" href="assets/css/style.css"> -->
+    <title>Tecnologias informaticas</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
     <style>
         /* body{
@@ -41,34 +42,37 @@
         <canvas id="canvas"></canvas>
         <!-- Título y descripción -->
         <div class="contenido-descripcion">
-            <div class="">
-                <h1 class="titulo">
+            <div class="container">
+            <div class="card-deck">
+                <h1 class="titulo ">
                     <span>Tecnologías</span>
                     <span>Informáticas</span>
                 </h1>
                 <article class="descripcion">
                 <p>Ofremos servicios integrales y estrategias efectivas para cada cliente y modelo de negocio. 
                 </p>
-                <br>
                 <p>
                     Participamos como socios creativos desde el análisis, desarrollo, construcción e 
                     implementación de un software de tus necesidades.
-                </p>
-                <br>
-                <p>
+               
                     Programamos tu sitio web, para hacer crecer digitalmente tu empresa y lo posicionamos 
                     difrenciandte de tu competencia. 
                     Nuestras aplicaciones son adptables a computadoras, tablets y moviles </p>
                     <a href="#" class="btn-link">unite</a>
+                    <span class="pull-right">2020 © <a href="http://eugenio.com.ar" style="color: #3dff3e; ">Eugenio Arevalo</a></span>
                 </article>
+            </div>
             </div>
         </div>
     </header>
-
+        <footer>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/matrix.js"></script>
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="../assets/js/particulas.js"></script>
+    <script src="assets/js/particulas.js"></script>
 
 </body>
 

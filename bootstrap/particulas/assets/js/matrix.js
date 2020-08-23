@@ -1,9 +1,9 @@
 //Fuente Original :  http://timelessname.com/sandbox/matrix.html
 //Configura el canvas para que ocupe la pantalla entera 
 canvas.height = 50;
-// canvas.width = 150;
+canvas.width = 1150;
 // canvas.height = window.screen.height;
-canvas.width = window.screen.width;
+// canvas.width = window.screen.width;
 
 // una entrada en el array por columna de texto
 //cada valor represnta la posición y actual de la columna.  (en canvas 0 es en la parte superior y los valores positivos de y van disminuyendo)
