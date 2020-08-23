@@ -26,10 +26,10 @@ particlesJS('particles-js',
         "value": "#ffff00"
       },
       "shape": {
-        "type": "star",
+        "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#ffffff"
+          "color": "#ffff00"
         },
         "polygon": {
           "nb_sides": 5
@@ -63,7 +63,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 350,
-        "color": "#00ff00",
+        "color": "#ff0000",
         "opacity": 0.3,
         "width": 1
       },
