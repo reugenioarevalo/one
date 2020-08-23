@@ -1,4 +1,4 @@
-canvas.height = 50;
+canvas.height = 150;
 canvas.width = 1150;
 var columns = []
 for (i = 0; i < 256; columns[i++] = 1);
