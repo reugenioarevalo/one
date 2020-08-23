@@ -35,7 +35,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Nosotros</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">Portafolios</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://eugenio.com.ar/">Portafolios</a></li>
       
                 <li class="nav-item">
                     <a class="nav-link disable"  tabindex="-1" aria-disabled="true" href="http://eugenio.com.ar/">Contacto</a>
