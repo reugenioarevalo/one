@@ -10,13 +10,17 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
+$(document).ready(function(){
+    var ancho = $(window).width();
+    if(ancho > 700)  {
 
+ 
 particlesJS('particles-js',
   
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 50,
         "density": {
           "enable": true,
           "value_area": 800
@@ -41,7 +45,7 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.9,
         "random": false,
         "anim": {
           "enable": false,
@@ -69,7 +73,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 10,
+        "speed": 3,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -131,3 +135,5 @@ particlesJS('particles-js',
   }
 
 );
+}
+});
