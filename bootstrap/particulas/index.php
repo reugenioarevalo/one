@@ -11,18 +11,10 @@
     <title>Tecnologias informaticas</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/estilos.css?v=4  ">
 
 </head>
-<style>
-body {
-    background-color: #000;
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-</style>
+
 
 <body>
     <div id="particles-js"></div>
@@ -44,11 +36,12 @@ body {
                     <a class="nav-link" href="#">Nosotros</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">Portafolios</a></li>
+      
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link disable"  tabindex="-1" aria-disabled="true" href="http://eugenio.com.ar/">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Whatsapp</a>
+                    <a class="nav-link " href="https://wa.me/541159949851?text=Me%20interesa%20el%20trabajo%20que%20estás%20haciendo%20mi%20nombre%20es:%20" tabindex="-1" aria-disabled="true">Whatsapp</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
@@ -62,19 +55,19 @@ body {
             </ul>
         </div>
     </nav>
-
-    <div class="contenedor">
+    
+    <div class="container " style="margin-top: 100px;">
         <div class="contenedor jumbotron">
             <div class="container">
                 <div class="cover-heading">
-                    <div class="hidden-sm-down">
+                    <!-- <div class="hidden-sm-down">
                         <h1 class="display-4 mt-2 ">
                             TECNOLOGIAS
                         </h1>
                         <h2 class="display-2 ">
                             INFORMATICAS
                         </h2>
-                    </div>
+                    </div> -->
                     <!-- <div class=" hidden-sm-up">
                         <h1 class="display-4 mt-2 ">
                             T.I.
@@ -84,8 +77,9 @@ body {
                 </div>
             </div>
         </div>
-        <canvas id="canvas"></canvas>
-        <div class="container">
+        
+        <div class="container" style="background-color: rgb(0,0,0, 0.87);">
+            <canvas id="canvas"></canvas> 
             <div class="row">
                 <div class="col-md-4">
                     <h2 class="text-success ">Creación</h2>
@@ -98,7 +92,7 @@ body {
                     <p>Programamos tu sistema, aplicación o página web,
                         para hacer crecer digitalmente
                         tu empresa y lo posicionamos
-                        difrenciandote de tus competidores. </p>
+                        diferenciándote de tus competidores. </p>
                     <p>
                         <a class="btn btn-dark text-white" href="#" role="button">
                             Contactanos &raquo;
@@ -108,8 +102,8 @@ body {
                 <div class="col-md-4">
                     <h2 class="text-success">Heading</h2>
                     <p> Nuestros desarrollos y aplicaciones son totalmente responsive.
-                        Esto quiere decir que tienen la capacidad de adptase
-                        a computadoras, tablets y moviles.
+                        Esto quiere decir que tienen la capacidad de adaptarse
+                        a computadoras, tablets y moviles indistintamente.
                     </p>
                     <p><a class="btn btn-dark  text-white" href="#" role="button">Contactanos &raquo;</a></p>
                 </div>
@@ -132,53 +126,9 @@ body {
         </p>
     </footer>
 
-    <!-- <header class="contenedor header">
-        
-        <nav class="barra-navegacion">
-            <ul>
-                <li>
-                    <a href="#" class="logo">
-                        <img src="assets/img/logoapaisado.jpg" width="150px" height="50px"/>
-                    </a>
-                </li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Portafolios</a></li>
-                <li><a href="#">Redes</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-        
-        
-        <canvas id="canvas"></canvas>
-        <div class="contenido-descripcion">
-            <div class="container">
-            <div class="card-deck">
-                <h1 class="titulo ">
-                    <span>Tecnologías</span>
-                    <span>Informáticas</span>
-                </h1>
-                <article class="descripcion">
-                <p>Ofremos servicios integrales y estrategias efectivas para cada cliente y modelo de negocio. 
-                </p>
-                <p>
-                    Participamos como socios creativos desde el análisis, desarrollo, construcción e 
-                    implementación de un software de tus necesidades.
-               
-                    Programamos tu sitio web, para hacer crecer digitalmente tu empresa y lo posicionamos 
-                    difrenciandte de tu competencia. 
-                    Nuestras aplicaciones son adptables a computadoras, tablets y moviles </p>
-                    <a href="#" class="btn-link">unite</a>
-                    <span class="pull-right">2020 © <a href="http://eugenio.com.ar" style="color: #3dff3e; ">Eugenio Arevalo</a></span>
-                </article>
-            </div>
-            </div>
-        </div>
-    </header>
-        <footer>
-        </footer> -->
+    <script src="assets/js/matrix.js?v=9"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/matrix.js"></script>
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/particulas.js"></script>

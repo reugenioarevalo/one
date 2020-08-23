@@ -15,6 +15,12 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
+#canvas {
+    font-size: 4px;
+width: 100%;
+height: 150px;
+
+}
 
 #particles-js {
 	height: 100vh; 

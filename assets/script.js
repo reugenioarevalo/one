@@ -1,12 +1,15 @@
 //Fuente Original :  http://timelessname.com/sandbox/matrix.html
 //Configura el canvas para que ocupe la pantalla entera 
-canvas.height = window.screen.height;
-canvas.width = window.screen.width;
+canvas.height = ancho;
+
+canvas.width = screen.width;
 
 // una entrada en el array por columna de texto
-//cada valor represnta la posición y actual de la columna.  (en canvas 0 es en la parte superior y los valores positivos de y van disminuyendo)
+//cada valor represnta la posición y actual de la columna.  
+//(en canvas 0 es en la parte superior y los valores positivos 
+//de y van disminuyendo)
 var columns = []
-for (i = 0; i < 256; columns[i++] = 1);
+for (i = 0; i < canvas.height; columns[i++] = 1);
 
 //ejecutado una vez por fotograma
 function step() {
