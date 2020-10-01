@@ -9,10 +9,11 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('matrix');
+		$this->load->view('ejemplos/album/vista_album');
 	}
 
-	function album(){
-		$this->load->view('ejemplos/album/index');
+	public function carrusel()
+	{
+		$this->load->view('ejemplos/carusel/vista_carrusel');
 	}
 }
