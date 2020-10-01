@@ -11,9 +11,7 @@
              strtoupper( $fila['Nombres'].' '. $fila['Apellidos']),
              'style="color:white"' ).'</h3>';
          }
-         $attributes = array(
-             'class' => 'boldlist','id'    => 'mylist',
-             'style'=> 'text-align: center; background-color:green; color:white;'
+         $attributes = array('class' => 'boldlist','id'    => 'mylist', 'style'=> 'text-align: center; background-color:green; color:white;'
          );
          echo anchor('lara/', 'Volver').'<br>';
          echo '<br><br><br>';
