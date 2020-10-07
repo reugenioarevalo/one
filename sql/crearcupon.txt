@@ -1,0 +1,6 @@
+CREATE TABLE puntos( 
+id int(11) NOT NULL AUTO_INCREMENT, 
+descrip varchar(128) NOT NULL, 
+id_usuario int(11) NOT NULL, 
+puntos int(11) NOT NULL, PRIMARY KEY (id) 
+)
