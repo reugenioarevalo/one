@@ -16,3 +16,9 @@
          echo anchor('lara/', 'Volver').'<br>';
          echo '<br><br><br>';
          echo ul($list, $attributes);
+
+         foreach($rutinas as $clave => $valor){
+             echo "Actividad: ". $valor['Actividad'].
+              "Calorias: ". $valor['Calorias'].
+              "Tiempo: ". $valor['Tiempo']."<br>";
+        }

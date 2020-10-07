@@ -29,9 +29,10 @@ class Usuarios extends CI_Controller {
         $this->load->view('layout/template', $data);
     }
 
-    public function getUsuarioId($id){
-       $data['usuarios'] = $this->db->query('SELECT * FROM usuario where id= '.$id.'')
-       ->result_array();
+    public function getUsuarioId($user_id){
+       $data['usuarios'] = $this->db->query('SELECT * FROM usuario where id= '.$user_id.'')->result_array();
+       $data['rutinas'] = $this->db->query('SELECT * FROM `entrenamientos` where IdUsuario = '.$user_id)->result_array();
+      
        $this->load->view('lara/usuarios/usuario_id', $data);
     }
 
